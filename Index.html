@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" content="width=device-width, initial-scale=1">
+    <title>Simple Layout</title>
+    <style>
+        * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 40px;
+    background-color: tomato;
+    border-bottom: 2px solid #ccc;
+    color:rgb(230, 111, 91);
+}
+
+nav a {
+    margin-left: 100px;
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+}
+
+nav{
+    margin-left: 300px;
+}
+
+.signup {
+    padding: 6px 12px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+main {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.card1 {
+    width: 180px;
+    height: 250px;
+    border: 2px solid black;
+    border-radius: 10px;
+
+     background-image: url("images2.JFIF");
+    background-size: cover;       /* Makes image fill the div */
+    background-position: center;  /* Centers the image */
+    background-repeat: no-repeat; /* Prevent repeating */
+}
+
+.card2 {
+    width: 180px;
+    height: 250px;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-image: url("Forest.JFIF");
+    background-size: cover;       /* Makes image fill the div */
+    background-position: center;  /* Centers the image */
+    background-repeat: no-repeat; /* Prevent repeating */
+}
+.card3 {
+    width: 180px;
+    height: 250px;
+    border: 2px solid black;
+    border-radius: 10px;
+
+    background-image: url("images1.JFIF");
+    background-size: cover;       /* Makes image fill the div */
+    background-position: center;  /* Centers the image */
+    background-repeat: no-repeat; /* Prevent repeating */
+}
+
+footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #f4f4f4;
+    border-top: 2px solid #ccc;
+}
+
+footer a {
+    margin: 0 20px;
+    text-decoration: none;
+    color: black;
+}
+
+.sky {
+            width: 100%;
+            height: 200px;
+            background-image: url("download1.JFIF");
+            background-size: cover;
+            background-position: center;  
+            background-repeat: no-repeat; 
+        }
+    </style>
+</head>
+<body>
+    
+    <header>
+        
+        <nav>
+          
+            <a href="#">Home</a>
+            <a href="#">Services</a>
+            <a href="Login.html">Login</a>
+            <a href="Sign Up.html">Sign Up</a>
+            
+        </nav>
+    
+    </header>
+     
+<div class="sky">
+  
+
+</div>
+   
+    <main>
+        <div class="card1"></div>
+        <div class="card2"></div>
+        <div class="card3"></div>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <a href="#">Tokyo</a>
+        <a href="#">London</a>
+        <a href="#">Paris</a>
+    </footer>
+
+</body>
+</html>
